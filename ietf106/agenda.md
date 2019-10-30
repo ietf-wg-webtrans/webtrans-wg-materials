@@ -5,7 +5,7 @@
   * Room: Canning
   * Mailing list: webtransport@ietf.org
 
-### 13:30 - 13:35 -- Preliminaries (5 minutes)
+### 13:30 - 13:35 -- Preliminaries (Chairs, 5 minutes)
   * Agenda Bash
   * Bluesheets
   * Minute takers
@@ -21,13 +21,13 @@
 
 ### 13:50 - 14:40 -- Relevant Drafts (50 minutes)
 
-#### An Unreliable Datagram Extension to QUIC (Tommy Pauly, 10 minutes)
+#### An Unreliable Datagram Extension to QUIC (Eric Kinnear & Tommy Pauly, 10 minutes)
 [draft-pauly-quic-datagram](https://tools.ietf.org/html/draft-pauly-quic-datagram)
 
 #### Using QUIC Datagrams with HTTP/3 (David Schinazi, 5 minutes)
 [draft-schinazi-quic-h3-datagram](https://tools.ietf.org/html/draft-schinazi-quic-h3-datagram)
 
-#### WebTransport over QUIC (Victor, Vailiev, 5 minutes)
+#### WebTransport over QUIC (Victor Vasiliev, 5 minutes)
 [draft-vvv-webtransport-quic](https://tools.ietf.org/html/draft-vvv-webtransport-quic)
 
 #### HTTP/2 as a Transport for Arbitrary Bytestreams (Eric Kinnear & Tommy Pauly, 10 minutes)
@@ -39,6 +39,6 @@
 #### WebTransport over HTTP/3 (Victor Vasiliev, 10 minutes)
 [draft-vvv-webtransport-http3](https://tools.ietf.org/html/draft-vvv-webtransport-http3)
 
-### 14:40 - 14:50 - Potential Charter (10 minutes)
+### 14:40 - 14:50 - Potential Charter (Chairs, 10 minutes)
 
-### 14:50 - 15:00 - Wrapup and Summary (10 minutes)
+### 14:50 - 15:00 - Wrapup and Summary (Chairs & ADs, 10 minutes)
