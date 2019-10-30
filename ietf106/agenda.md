@@ -11,7 +11,7 @@
   * Minute takers
   * Jabber scribe
 
-### 13:35 - 13:55 -- Use Cases and Requirements (20 minutes)
+### 13:35 - 13:50 -- Use Cases and Requirements (15 minutes)
 [draft-vvv-webtransport-overview](https://tools.ietf.org/html/draft-vvv-webtransport-overview)
 
   * Machine Learning APIs
@@ -19,7 +19,7 @@
   * Web Gaming
   * Requirements/Summary
 
-### 13:55 - 14:35 -- Relevant Drafts (40 minutes)
+### 13:50 - 14:40 -- Relevant Drafts (50 minutes)
 
 #### An Unreliable Datagram Extension to QUIC (Tommy Pauly, 10 minutes)
 [draft-pauly-quic-datagram](https://tools.ietf.org/html/draft-pauly-quic-datagram)
@@ -33,9 +33,12 @@
 #### HTTP/2 as a Transport for Arbitrary Bytestreams (Eric Kinnear & Tommy Pauly, 10 minutes)
 [draft-kinnear-httpbis-http2-transport](https://tools.ietf.org/html/draft-kinnear-httpbis-http2-transport)
 
+#### An HTTP/2 Extension for Bidirectional Message Communication (Guowu Xie, 10 minutes)
+[draft-xie-bidrectional-messaging](https://tools.ietf.org/html/draft-xie-bidirectional-messaging)
+
 #### WebTransport over HTTP/3 (Victor Vasiliev, 10 minutes)
 [draft-vvv-webtransport-http3](https://tools.ietf.org/html/draft-vvv-webtransport-http3)
 
-### 14:35 - 14:45 -- Potential Charter (10 minutes)
+### 14:40 - 14:50 - Potential Charter (10 minutes)
 
-### 14:45 - 15:00 -- Wrapup and Summary (15 minutes)
+### 14:50 - 15:00 - Wrapup and Summary (10 minutes)
