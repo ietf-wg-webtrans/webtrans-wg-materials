@@ -2,8 +2,10 @@
   * Applications and Real-Time Area (ART)
   * Wednesday, November 20, 2019
   * 13:30 - 15:00 (Singapore time)
-  * Room: Canning
+  * Room: Collyer
+  * Meetecho: https://www.meetecho.com/ietf106/webtrans/
   * Mailing list: webtransport@ietf.org
+  * Jabber Room: webtrans@jabber.ietf.org
 
 ### 13:30 - 13:35 -- Preliminaries (Chairs, 5 minutes)
   * Note Well
