@@ -6,12 +6,13 @@
   * Mailing list: webtransport@ietf.org
 
 ### 13:30 - 13:35 -- Preliminaries (Chairs, 5 minutes)
-  * Agenda Bash
-  * Bluesheets
-  * Minute takers
+  * Note Well
+  * Blue Sheets
+  * Note Takers
   * Jabber scribe
+  * Agenda Bash
 
-### 13:35 - 13:50 -- Use Cases and Requirements (15 minutes)
+### 13:35 - 13:50 -- Overview and Requirements (15 minutes)
 [draft-vvv-webtransport-overview](https://tools.ietf.org/html/draft-vvv-webtransport-overview)
 
   * Machine Learning APIs
