@@ -7,14 +7,15 @@
   * Mailing list: webtransport@ietf.org
   * Jabber Room: webtrans@jabber.ietf.org
 
-### 13:30 - 13:35 -- Preliminaries (Chairs, 5 minutes)
+### 13:30 - 13:40 -- Preliminaries (Chairs, 10 minutes)
   * Note Well
   * Blue Sheets
   * Note Takers
   * Jabber scribe
   * Agenda Bash
+  * BOF Context
 
-### 13:35 - 13:50 -- Overview and Requirements (15 minutes)
+### 13:40 - 13:50 -- Overview and Requirements (10 minutes)
 [draft-vvv-webtransport-overview](https://tools.ietf.org/html/draft-vvv-webtransport-overview)
 
   * Machine Learning APIs
