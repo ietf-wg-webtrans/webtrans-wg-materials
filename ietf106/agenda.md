@@ -18,11 +18,6 @@
 ### 13:40 - 13:50 -- Overview and Requirements (10 minutes)
 [draft-vvv-webtransport-overview](https://tools.ietf.org/html/draft-vvv-webtransport-overview)
 
-  * Machine Learning APIs
-  * Communications Platform APIs
-  * Web Gaming
-  * Requirements/Summary
-
 ### 13:50 - 14:40 -- Relevant Drafts (50 minutes)
 
 #### An Unreliable Datagram Extension to QUIC (Eric Kinnear & Tommy Pauly, 10 minutes)
