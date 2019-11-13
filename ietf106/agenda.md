@@ -15,7 +15,7 @@
   * Agenda Bash
   * BOF Context
 
-### 13:40 - 13:50 -- Overview and Requirements (10 minutes)
+### 13:40 - 13:50 -- Overview and Requirements (Victor Vasiliev, 10 minutes)
 [draft-vvv-webtransport-overview](https://tools.ietf.org/html/draft-vvv-webtransport-overview)
 
 ### 13:50 - 14:40 -- Relevant Drafts (50 minutes)
