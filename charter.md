@@ -19,16 +19,16 @@
 
 ### Description of Working Group
 
-The WebTransport working group will define new protocols or
-protocol extensions in order to support the development of the
-W3C WebTransport API <https://wicg.github.io/web-transport>. 
+The WebTransport working group will define new client-server protocols
+or protocol extensions in order to support the development of the
+W3C WebTransport API <https://wicg.github.io/web-transport>.
 
 These protocols will support:
   * Reliable bidirectional and unidirectional communication
     that provides greater efficiency than Websockets
     (e.g. removal of head-of-line blocking).
-  * Unreliable datagram communication, functionality not
-    available in Websockets.
+  * Unreliable datagram communication, functionality not available
+    in Websockets.
   * Origin checks to allow supporting the Web's origin-based
     security model.
 
