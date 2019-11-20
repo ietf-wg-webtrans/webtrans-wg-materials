@@ -38,6 +38,6 @@
 
 ### 14:25 - 14:50 -- Q&A (25 minutes)
 
-### 14:50 - 14:55 -- Potential Charter (Chairs, 5 minutes)
+### 14:50 - 14:55 -- Pointer to Charter Discussion (Chairs, 5 minutes)
 
 ### 14:55 - 15:00 -- Wrapup and Summary (Chairs & ADs, 5 minutes)
