@@ -9,12 +9,16 @@
 
 * Bluesheet Attendance: 129
 * This is a non WG forming BoF
-* Please Join the mailing list: webtransport@ietf.org
-* Jabber log: https://www.ietf.org/jabber/logs/webtrans/2019-11-20.html
-* MeetEcho Session Recording: http://www.meetecho.com/ietf106/recordings#WEBTRANS
-* YouTube link for the Session Recording: https://www.youtube.com/watch?v=o5cJEuO2-vk
 * Minute Taker: Cullen Jennings
 * Jabber Scribe: Winston Felix Handte
+* Please Join the mailing list: webtransport@ietf.org
+* Jabber log:
+  * https://www.ietf.org/jabber/logs/webtrans/2019-11-20.html
+* MeetEcho Session Recording:
+  * http://www.meetecho.com/ietf106/recordings#WEBTRANS
+* YouTube link for the Session Recording:
+  * https://www.youtube.com/watch?v=o5cJEuO2-vk
+
 
 # Overview and Requirements (Victor Vasiliev)
 
