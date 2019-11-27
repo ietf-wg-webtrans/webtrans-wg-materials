@@ -13,12 +13,14 @@
 * Jabber log: https://www.ietf.org/jabber/logs/webtrans/2019-11-20.html
 * MeetEcho Session Recording: http://www.meetecho.com/ietf106/recordings#WEBTRANS
 * YouTube link for the Session Recording: https://www.youtube.com/watch?v=o5cJEuO2-vk
+* Minute Taker: Cullen Jennings
+* Jabber Scribe: Winston Felix Handte
 
 # Overview and Requirements (Victor Vasiliev)
 
 https://tools.ietf.org/html/draft-vvv-webtransport-overview
 
-Victor Vasiliev: The problem we are trying to solve is bidirectional communication on the web.  Messages can flow at any time, both ways. We are talking about interactive sessions.  Websockets allowed sending messages in both directions.  RTCDataChannel is SCTP-based, allows partial or unreliable and unordered messages, but is designed for peer-to-peer.  So [for client/server] there is a gap for Reliable but unordered and Unreliable and unordered.  We intend to address that gap with WebTransport. 
+Victor Vasiliev: The problem we are trying to solve is bidirectional communication on the web.  Messages can flow at any time, both ways. We are talking about interactive sessions.  Websockets allowed sending messages in both directions.  RTCDataChannel is SCTP-based, allows partial or unreliable and unordered messages, but is designed for peer-to-peer.  So [for client/server] there is a gap for Reliable but unordered and Unreliable and unordered.  We intend to address that gap with WebTransport.
 
 Target applications - anything that wants one of the following:
 - “WebSockets for UDP”
@@ -62,7 +64,7 @@ https://tools.ietf.org/html/draft-schinazi-quic-h3-datagram
 If you were in QUIC this morning, you have seen all of these slides.
 We have lots of applications that want reliable control streams and unreliable flows: media streaming, gaming, VPN-style tunneling, and more.
 
-DATAGRAM frames (0x30 and 0x31). Can be done with and without a length. 
+DATAGRAM frames (0x30 and 0x31). Can be done with and without a length.
 
 There is no more flow-id in draft-pauly-quic-datagram (moved to draft-schinazi-quic-h3-datagram).
 Supported by multiple implementations, nice interop during the hackathon.
@@ -97,7 +99,7 @@ Eric Kinnear: Makes sense to do something like that
 
 https://tools.ietf.org/html/draft-xie-bidirectional-messaging
 
-Guowu Xie: Messaging requires bidirectional communications. Clients send messages to the server and get a response, but servers may also want to send a message to clients and get a response. Two major groups of solutions:  stream tunneling and server push.  Neither is good enough for the messaging use case.  
+Guowu Xie: Messaging requires bidirectional communications. Clients send messages to the server and get a response, but servers may also want to send a message to clients and get a response. Two major groups of solutions:  stream tunneling and server push.  Neither is good enough for the messaging use case.
 
 In stream tunneling the client establishes a tunnel to the server over a single stream (long polling, websocket, draft-kinnear-httpbis-http2-transport).  HTTP/2 stream is treated like a socket, so client and server have to speak some application protocol over the tunnel. Limitations:  multiple layers of framing, web developers forced to design their own application protocols, reintroduces HoL blocking in HTTP/3, bypasses header compression, bypasses stream prioritization, GOAWAY is less effective.
 
@@ -105,14 +107,14 @@ What about HTTP/2 server push? The lack of acknowledgement makes it unsuitable f
 
 The extension proposal uses routing streams (RStream) and Extended Streams (XStream).  Xstreams are routed via Routing Streams, so Xstreams do not have to carry headers for routing purposes.
 
-Comparison with WebTransport-over-h3. 
+Comparison with WebTransport-over-h3.
 
 Similarities:
-- Routing streams and WebTransport Sessions enable routing between the server and client through intermediaries, as well as grouping of dependent streams. 
+- Routing streams and WebTransport Sessions enable routing between the server and client through intermediaries, as well as grouping of dependent streams.
 - Xtreams and WebTransport_stream can be created by either peer and allow routing (via routing streams or the Session-Id).
 
 Differences:
-- HTTP Message vs. a stream of bytes (WebTransport-over-h3). HTTP Message = structured meta-data (headers) + data (body).  This makes it a better abstraction and a richer building block. 
+- HTTP Message vs. a stream of bytes (WebTransport-over-h3). HTTP Message = structured meta-data (headers) + data (body).  This makes it a better abstraction and a richer building block.
 
 Roberto Peon: To make sure we are on the same page - we are saying that we have a bunch of HTTP messages and we want to make sure that they are all routed to the final destination, correct?
 
@@ -135,7 +137,7 @@ URI scheme (since this is not HTTP). This includes the host name (sent as SNI), 
 
 HTTP/3 transport gives you a collection of streams in both directions or datagrams within an HTTP/3 connection. Uses extended CONNECT mechanism to establish a session. If the server accepts the session, it returns a new session ID, used to associate all further streams and datagrams with the header.
 
-Lucas Pardue: I was reading the specification for HTTP/3.  You require the extended CONNECT method. In HTTP/2 it is enabled via an H2 setting, but in H3 it is done via a transport parameter? 
+Lucas Pardue: I was reading the specification for HTTP/3.  You require the extended CONNECT method. In HTTP/2 it is enabled via an H2 setting, but in H3 it is done via a transport parameter?
 
 Victor Vasiliev:  This is one of the details to sort out.
 
@@ -202,15 +204,16 @@ EKR:  It has no W3C status.
 
 
 For posterity, links to the documents are pasted below:
-- What WG:  
+- What WG:
   - Streams (basis for both WebSocketStream and WebTransport):
-    - https://streams.spec.whatwg.org/ 
+    - https://streams.spec.whatwg.org/
   - WebSocketStream API status: likely to be handled in WhatWG.
-    - https://docs.google.com/document/d/1La1ehXw76HP6n1uUeks-WJGFgAnpX2tCjKts7QFJ57Y 
-- W3C: 
+    - https://docs.google.com/document/d/1La1ehXw76HP6n1uUeks-WJGFgAnpX2tCjKts7QFJ57Y
+- W3C:
   - WebTransport is being incubated in WICG.
-    - https://github.com/WICG/web-transport 
-    - https://discourse.wicg.io/t/webtransport-proposal/3508/7 
+    - https://wicg.github.io/web-transport
+    - https://github.com/WICG/web-transport
+    - https://discourse.wicg.io/t/webtransport-proposal/3508/7
 
 
 Brian Trammell: This means we need tighter look than we have done before with W3C.
@@ -276,7 +279,7 @@ Roberto Peon: I have a minor concern on whether scope should increase.
 
 Question #2: Are the WebTransport deliverables (WebTransport overview, QuicTransport, Http3Transport, FallbackTransport) well-defined and well-understood?
 
-Ted Hardie: I think some of these are well-defined but not others. 
+Ted Hardie: I think some of these are well-defined but not others.
 
 David Schinazi: Can you say which ones are well-defined and which are not?
 
