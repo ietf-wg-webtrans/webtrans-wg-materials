@@ -241,13 +241,12 @@ Eric Rescorla: On the topic of W3C/IETF joint work, I am not sure that either of
 
 # Pointer to Charter Discussion
 
-Bernard Aboba:  This is a pointer to the charter discussion, since this is not a WG-forming BOF.  There has been discussion on the mailing list (webtransport@ietf.org) mailing or go to GitHub and file issues: https://github.com/DavidSchinazi/webtrans-wg-materials
-So if you have opinions, you can post them to the mailing list or file an issue on Github. I will show you where we are, so you can express your opinions on the mailing list or on Github. (Show latest charter proposal posted to the mailing list).
+Bernard Aboba:  This is a pointer to the charter discussion, since this is not a WG-forming BOF.  There has been discussion on the mailing list (webtransport@ietf.org) and the charter is up on github (https://github.com/DavidSchinazi/webtrans-wg-materials)
+So if you have opinions, you can post them to the mailing list or file an issue on Github. I will show you where we are, so you can express your opinions on the mailing list or on Github. (Shows latest charter proposal posted to the mailing list).
 
 Mirja Kühlewind: What are the implications for QUIC here?
 
 David Schinazi: This just uses QUIC, it has no new requirements on HTTP or QUIC WG (except we need QUIC to have the DATAGRAM extension).
-
 
 Mark Nottingham: You are using HTTP.  I noticed a new pseudo-header, for example. This is stuff that needs review in HTTP WG.
 
@@ -261,11 +260,9 @@ Eric Rescorla: Agree, this is not a good name.
 
 David Schinazi:  Bikeshedding on the name is not a clarifying question.
 
-
 # Wrap up and Summary
 
 David Schinazi: This is not a WG forming BOF. We’re going to have hums to gauge interest and determine how much change is required.
-
 
 Question #1: Is the WebTransport problem statement clear, well-scoped, solvable, and useful to solve?
 
@@ -277,21 +274,17 @@ David Schinazi:  If someone hummed no, can you say why?
 
 Roberto Peon: I have a minor concern on whether scope should increase.
 
-
 Question #2: Are the WebTransport deliverables (WebTransport overview, QuicTransport, Http3Transport, FallbackTransport) well-defined and well-understood?
 
 Ted Hardie: I think some of these are well-defined but not others. 
-
-Chris Lemmons (Jabber Room): Then let's hum about what needs more work. Instead of humming about the whole list for adoption.
 
 David Schinazi: Can you say which ones are well-defined and which are not?
 
 Ted Hardie: The relation between QuicTransport, Http3Transport and fallback needs some fleshing out. Suitability of fallback may be variable. For example, what the security properties are when falling back may be different when not falling back. And we can probably get to well defined deliverables but I am concerned that we are not there yet.
 
-
 Eric Rescorla: In what sense is this not a WG forming BoF?
 
-Bernard Aboba (as chair): We're trying to find what parts of charter need more work.
+Bernard Aboba (as chair): We're trying to understand what parts of a potential charter need more work.
 
 Barry Leiba (as responsible AD): I don't think we went through charter bashing significantly. The question here is whether the technology is well defined and well understood.
 
@@ -301,13 +294,11 @@ Barry Leiba: That'll depend on the discussion on mailing list. We might be able 
 
 Eric Rescorla: The email mentioned a non WG-forming BoF and these hums sounds like a WG-forming BoF. Please me clearer so people know to attend sessions or not. Let's talk offline.
 
-
 Mirja Kühlewind: My understanding from the mic line is that the proposal is not entirely well defined.
 
 Bernard Aboba (as chair): Can you be more specific, what items are not well defined?
 
 Mirja Kühlewind: At a high level today this is fine but some details in the drafts need far more discussion.
-
 
 Victor Vasiliev: How is question #2 different from question #1?
 
@@ -315,13 +306,11 @@ Bernard Aboba (as chair): We're trying to find what items need to be worked on m
 
 David Schinazi (as chair): From the mic line feedback, question #2 is not well defined. We're not going to take a hum on question #2 today.
 
-
 Tommy Pauly: These deliverables are not the right granularity. These are one way to solve the problem but the charter should talk more about the problem statement than a given solution.
 
 Jonathan Lenox: It's not clear that there should be 3 transports. That decision should be made by the WG instead of being in the charter.
 
-
-Chris Lemmons: Then let's hum about what needs more work instead of humming about the whole list for adoption.
+Chris Lemmons (Jabber Room): Then let's hum about what needs more work. Instead of humming about the whole list for adoption.
 
 David Schinazi: we're not going to have those hums today.
 
