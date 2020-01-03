@@ -32,11 +32,10 @@ These protocols will support:
   * Origin checks to allow supporting the Web's origin-based
     security model.
 
-The WebTransport working group will define three variants:
-  * A protocol directly running over QUIC with its own ALPN.
-  * A protocol that runs multiplexed with HTTP/3.
-  * Fallback protocols that can be used when QUIC or UDP 
-    are not available.
+The WebTransport working group will define a protocol or set of
+protocols that fits these requirements. Multiple protocols might
+be required to support different usage scenarios, such as
+multiplexing with HTTP/3 or networks where UDP is blocked.
 
 The group will pay attention to security issues arising from
 the above scenarios so as to ensure against creation of new
@@ -49,22 +48,14 @@ initially develop an overview document containing use cases
 and requirements in order to clarify the goals of the effort.
 Feedback will also be solicited at various points along the way
 in order to ensure the best possible match between the protocol
-extensions and the needs of the W3C WebTransport API. The clarity
-and interoperability of specifications will be confirmed via test
-events and hackathons.
+extensions and the needs of the W3C WebTransport API.
 
 The group will also coordinate with other working groups within
 the IETF (e.g. QUIC, HTTPBIS) as appropriate. 
 
 ### Goals and Milestones
 
-  * March 2020     - Adopt a WebTransport Overview draft as a WG work item
-  * March 2020     - Adopt a draft on WebTransport over QUIC as a WG work item
-  * March 2020     - Adopt a draft on WebTransport over HTTP/3 as a WG work item
-  * March 2020     - Adopt a draft on HTTP/2 fallback mechanism as a WG work item
-  * March 2020     - Adopt a draft on a QUIC fallback mechanism as a WG work item
-  * August 2020      - Issue WG last call of the WebTransport Overview document.
-  * November 2020  - Issue WG last call on WebTransport over QUIC
-  * November 2020  - Issue WG last call on QUIC fallback mechanism
-  * February 2021  - Issue WG last call on WebTransport over HTTP/3
-  * February 2021  - Issue WG last call on HTTP/2 fallback mechanism
+ * March 2020 - Adopt a WebTransport Overview draft as a WG work item
+ * March 2020 - Adopt a draft defining a WebTransport protocol as a WG work item
+ * August 2020 - Issue WG last call of the WebTransport Overview document.
+ * November 2020 - Issue WG last call on the first WebTransport protocol document
