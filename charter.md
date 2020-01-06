@@ -23,19 +23,15 @@ The WebTransport working group will define new client-server protocols
 or protocol extensions in order to support the development of the
 W3C WebTransport API <https://wicg.github.io/web-transport>.
 
-These protocols will support:
-  * Reliable bidirectional and unidirectional communication
-    that provides greater efficiency than Websockets
-    (e.g. removal of head-of-line blocking).
-  * Unreliable datagram communication, functionality not available
-    in Websockets.
-  * Origin checks to allow supporting the Web's origin-based
-    security model.
-
-The WebTransport working group will define a protocol or set of
-protocols that fits these requirements. Multiple protocols might
-be required to support different usage scenarios, such as
-multiplexing with HTTP/3 or networks where UDP is blocked.
+The WebTransport working group will define a protocol or suite of
+protocols that support a range of simple communication methods.
+These must include unreliable messages (that might be limited by
+the path MTU), reliable messages, and ordered streams of reliable
+messages.  Attention will be paid to performance of the protocol,
+in particular protocol overheads and the potential for head-of-line
+blocking; its ability to be deployed and used reliably under different
+network conditions; and the ability to integrate protocol use into
+the Web security model.
 
 The group will pay attention to security issues arising from
 the above scenarios so as to ensure against creation of new
