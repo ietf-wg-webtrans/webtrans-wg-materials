@@ -27,7 +27,7 @@ The WebTransport working group will define a protocol or suite of
 protocols that support a range of simple communication methods.
 These must include unreliable messages (that might be limited by
 the path MTU), reliable messages, and ordered streams of reliable
-messages.  Attention will be paid to performance of the protocol,
+messages.  Attention will be paid to the performance of the protocol,
 in particular protocol overheads and the potential for head-of-line
 blocking; its ability to be deployed and used reliably under different
 network conditions; and the ability to integrate protocol use into
