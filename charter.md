@@ -53,5 +53,5 @@ the IETF (e.g. QUIC, HTTPBIS) as appropriate.
 
  * March 2020 - Adopt a WebTransport Overview draft as a WG work item
  * March 2020 - Adopt a draft defining a WebTransport protocol as a WG work item
- * August 2020 - Issue WG last call of the WebTransport Overview document.
- * November 2020 - Issue WG last call on the first WebTransport protocol document
+ * October 2020 - Issue WG last call of the WebTransport Overview document.
+ * January 2021 - Issue WG last call on the first WebTransport protocol document
