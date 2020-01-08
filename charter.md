@@ -35,9 +35,7 @@ the Web security model.
 
 The group will pay attention to security issues arising from
 the above scenarios so as to ensure against creation of new
-modes of attack, as well as to ensure that security issues
-addressed in the design of Websockets remain addressed
-in the new work.
+modes of attack.
 
 To assist in the coordination with W3C, the group will
 initially develop an overview document containing use cases
