@@ -23,15 +23,15 @@ The WebTransport working group will define new client-server protocols
 or protocol extensions in order to support the development of the
 W3C WebTransport API <https://wicg.github.io/web-transport>.
 
-The WebTransport working group will define a protocol or suite of
-protocols that support a range of simple communication methods.
+The WebTransport working group will define an application-layer protocol or suite of
+application-layer protocols that support a range of simple communication methods.
 These must include unreliable messages (that might be limited by
 the path MTU), reliable messages, and ordered streams of reliable
 messages.  Attention will be paid to the performance of the protocol,
 in particular protocol overheads and the potential for head-of-line
 blocking; its ability to be deployed and used reliably under different
 network conditions; and the ability to integrate protocol use into
-the Web security model.
+the Web security model. These new protocols shall be built over QUIC or TLS.
 
 The group will pay attention to security issues arising from
 the above scenarios so as to ensure against creation of new
@@ -45,7 +45,8 @@ in order to ensure the best possible match between the protocol
 extensions and the needs of the W3C WebTransport API.
 
 The group will also coordinate with other working groups within
-the IETF (e.g. QUIC, HTTPBIS) as appropriate. 
+the IETF (e.g. QUIC, HTTPBIS) as appropriate. In particular, any changes
+to QUIC or HTTP shall be discussed in their respective working groups.
 
 ### Goals and Milestones
 
