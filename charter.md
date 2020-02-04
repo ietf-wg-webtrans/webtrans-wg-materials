@@ -31,7 +31,8 @@ messages.  Attention will be paid to the performance of the protocol,
 in particular protocol overheads and the potential for head-of-line
 blocking; its ability to be deployed and used reliably under different
 network conditions; and the ability to integrate protocol use into
-the Web security model. These new protocols shall be built over QUIC or TLS.
+the Web security model. The working group will not define new transport
+protocols but will instead use existing protocols such as QUIC and TLS.
 
 The group will pay attention to security issues arising from
 the above scenarios so as to ensure against creation of new
