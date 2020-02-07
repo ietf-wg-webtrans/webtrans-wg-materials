@@ -21,7 +21,7 @@
 
 The WebTransport working group will define new client-server protocols
 or protocol extensions in order to support the development of the
-W3C WebTransport API <https://wicg.github.io/web-transport>.
+WebTransport API <https://quic.rocks/webtransport-api>.
 
 The WebTransport working group will define an application-layer protocol or suite of
 application-layer protocols that support a range of simple communication methods.
@@ -38,12 +38,14 @@ The group will pay attention to security issues arising from
 the above scenarios so as to ensure against creation of new
 modes of attack.
 
-To assist in the coordination with W3C, the group will
+The WebTransport API will create requirements on the protocols defined
+by the IETF WebTransport working group.
+To assist in the coordination with the owners of the WebTransport API, the group will
 initially develop an overview document containing use cases
 and requirements in order to clarify the goals of the effort.
 Feedback will also be solicited at various points along the way
 in order to ensure the best possible match between the protocol
-extensions and the needs of the W3C WebTransport API.
+work and the needs of the WebTransport API.
 
 The group will also coordinate with other working groups within
 the IETF (e.g. QUIC, HTTPBIS) as appropriate. In particular, any changes
