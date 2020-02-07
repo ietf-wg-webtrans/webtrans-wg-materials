@@ -32,7 +32,7 @@ in particular protocol overheads and the potential for head-of-line
 blocking; its ability to be deployed and used reliably under different
 network conditions; and the ability to integrate protocol use into
 the Web security model. The working group will not define new transport
-protocols but will instead use existing protocols such as QUIC and TLS.
+protocols but will instead use existing protocols such as QUIC and TLS/TCP.
 
 The group will pay attention to security issues arising from
 the above scenarios so as to ensure against creation of new
@@ -48,8 +48,11 @@ in order to ensure the best possible match between the protocol
 work and the needs of the WebTransport API.
 
 The group will also coordinate with other working groups within
-the IETF (e.g. QUIC, HTTPBIS) as appropriate. In particular, any changes
-to QUIC or HTTP shall be discussed in their respective working groups.
+the IETF (e.g. QUIC, HTTPBIS, TLS) as appropriate. In particular, any changes
+to these core protocols shall be discussed in their respective working groups.
+The WebTransport working group may define extensions to these protocols,
+but any working group last call defining such extensions shall also be sent to
+the mailing list of the respective working group.
 
 ### Goals and Milestones
 
