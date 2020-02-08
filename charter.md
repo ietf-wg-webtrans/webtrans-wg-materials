@@ -23,14 +23,14 @@ The WebTransport working group will define new client-server protocols
 or protocol extensions in order to support the development of the
 WebTransport API <https://quic.rocks/webtransport-api>.
 
-The WebTransport working group will define an application-layer protocol or suite of
-application-layer protocols that support a range of simple communication methods.
-These must include unreliable messages (that might be limited by
-the path MTU), reliable messages, and ordered streams of reliable
-messages.  Attention will be paid to the performance of the protocol,
-in particular protocol overheads and the potential for head-of-line
+The WebTransport working group will define an application-layer protocol
+or suite of application-layer protocols that support a range of simple
+communication methods. These must include unreliable messages (that
+might be limited by the path MTU), reliable messages, and ordered streams
+of reliable messages. Attention will be paid to the performance of the
+protocol, in particular protocol overhead and the potential for head-of-line
 blocking; its ability to be deployed and used reliably under different
-network conditions; and the ability to integrate protocol use into
+network conditions; and the ability to integrate the protocol into
 the Web security model. The working group will not define new transport
 protocols but will instead use existing protocols such as QUIC and TLS/TCP.
 
@@ -38,11 +38,10 @@ The group will pay attention to security issues arising from
 the above scenarios so as to ensure against creation of new
 modes of attack.
 
-The WebTransport API will create requirements on the protocols defined
-by the IETF WebTransport working group.
-To assist in the coordination with the owners of the WebTransport API, the group will
-initially develop an overview document containing use cases
-and requirements in order to clarify the goals of the effort.
+To assist in the coordination with the owners of the WebTransport API,
+the group will initially develop an overview document containing use
+cases and requirements in order to clarify the goals of the effort.
+This will include requirements arising from the WebTransport API. 
 Feedback will also be solicited at various points along the way
 in order to ensure the best possible match between the protocol
 work and the needs of the WebTransport API.
