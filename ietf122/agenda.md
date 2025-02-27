@@ -16,7 +16,7 @@ CHAIRS: David Schinazi, Nidhi Jaju, Lucas Pardue
 * [Notes](https://notes.ietf.org/notes-ietf-122-webtrans)
 * [Minutes](https://datatracker.ietf.org/doc/minutes-122-webtrans/)
 
-------------------------------------------------------------
+## Agenda
 
 1. **Preliminaries**, _Chairs_ (15 minutes) \
    [Note Well](https://www.ietf.org/about/note-well/), [Code of Conduct](https://www.rfc-editor.org/rfc/rfc7154.html), Note Takers, Agenda Bashing, Draft status
