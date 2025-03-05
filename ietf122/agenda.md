@@ -18,20 +18,26 @@ CHAIRS: David Schinazi, Nidhi Jaju, Lucas Pardue
 
 ## Agenda
 
-1. **Preliminaries**, _Chairs_ (15 minutes) \
+1. **Preliminaries**, _Chairs_ (15 minutes)
+
    [Note Well](https://www.ietf.org/about/note-well/), [Code of Conduct](https://www.rfc-editor.org/rfc/rfc7154.html), Note Takers, Agenda Bashing, Draft status
 
-2. **W3C WebTransport Update**, _Will Law_ (15 minutes) \
+2. **W3C WebTransport Update**, _Will Law_ (15 minutes)
+
    https://w3c.github.io/webtransport/
 
-3. **WebTansport over HTTP/2**, _Eric Kinnear_ (25 minutes) \
-   https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http2 \
-   Open PRs: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http2/pulls \
-   Open Issues: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http2/issues
+4. **WebTransport over HTTP/2 and HTTP/3**, _Victor Vasiliev_, _Eric Kinnear_ (50 minutes)
+   
+   https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3
+   - Open PRs: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http3/pulls
+   - Open Issues: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http3/issues
 
-4. **WebTransport over HTTP/3**, _Victor Vasiliev_ (25 minutes) \
-   https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3 \
-   Open PRs: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http3/pulls \
-   Open Issues: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http3/issues
+   https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http2
+   - Open PRs: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http2/pulls
+   - Open Issues: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http2/issues
 
-5. **Wrap up and Summary**, _Chairs & ADs_ (10 minutes)
+   https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview
+   - Open PRs: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-overview/pulls
+   - Open Issues: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-overview/issues
+
+6. **Wrap up and Summary**, _Chairs & ADs_ (10 minutes)
