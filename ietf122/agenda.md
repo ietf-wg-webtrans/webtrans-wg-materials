@@ -26,7 +26,7 @@ CHAIRS: David Schinazi, Nidhi Jaju, Lucas Pardue
 
    https://w3c.github.io/webtransport/
 
-4. **WebTransport over HTTP/2 and HTTP/3**, _Victor Vasiliev_, _Eric Kinnear_ (50 minutes)
+3. **WebTransport over HTTP/2 and HTTP/3**, _Victor Vasiliev_, _Eric Kinnear_ (40 minutes)
    
    https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3
    - Open PRs: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http3/pulls
@@ -40,4 +40,8 @@ CHAIRS: David Schinazi, Nidhi Jaju, Lucas Pardue
    - Open PRs: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-overview/pulls
    - Open Issues: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-overview/issues
 
-6. **Wrap up and Summary**, _Chairs & ADs_ (10 minutes)
+4. As Time Permits: **Forward and Reverse HTTP/3 over WebTransport**, _Ben Schwartz_ (10 minutes)
+
+   https://datatracker.ietf.org/doc/html/draft-various-httpbis-h3-webtrans/
+
+5. **Wrap up and Summary**, _Chairs & ADs_ (10 minutes)
