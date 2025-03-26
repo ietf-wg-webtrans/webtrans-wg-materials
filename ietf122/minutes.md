@@ -1,4 +1,4 @@
-# WebTransport (webtrans) Working Group Agenda - IETF 122
+# WebTransport (webtrans) Working Group Minutes - IETF 122
 
 Chairs: David Schinazi, Nidhi Jaju, Lucas Pardue
 
