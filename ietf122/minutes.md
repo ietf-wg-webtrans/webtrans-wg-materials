@@ -18,6 +18,7 @@ Will reads the slides.
 Many people in the W3C group are in the room.
 Almost done!
 Candidate recommendation in 1-2 months. Hope to be completely done before the W3C meets in November.
+
 Updates 
 - redirection as network error
 - protocol constructor 
@@ -73,37 +74,37 @@ Open Issues:
     - AF: Asks the chairs to schedule virtual interop as implementations may not happen by Madrid. 
     - KO: If this is complicated, MAX data can be same as QUIC limit
 
-EK: Will check regarding subprotocol negotiation being optional.
-DS: Pending PR on MT
-DS: Will decide on virtual interop
+- EK: Will check regarding subprotocol negotiation being optional.
+- DS: Pending PR on MT
+- DS: Will decide on virtual interop
 
 HTTP/2:
 
-EK: Assistance requested from chairs regarding interop availability
-AF: Explore if devious baton is good for interop
-AJ: Apple has devious baton ready for interop
+- EK: Assistance requested from chairs regarding interop availability
+- AF: Explore if devious baton is good for interop
+- AJ: Apple has devious baton ready for interop
 
-DS: \<missed what David said to Victor regarding key exporters, check audio\>
+- DS: \<missed what David said to Victor regarding key exporters, check audio\>
 
 
 ### As Time Permits: **[Forward and Reverse HTTP/3 over WebTransport](https://datatracker.ietf.org/doc/html/draft-various-httpbis-h3-webtrans/)** -- _Ben Schwartz_ (10 minutes)
 
 Fine interface line between HTTP/3 and QUIC - shares similarities with WebTransport session. 
-BS: Adoption in HTTPBIS/WEBTRANS?
+- BS: Adoption in HTTPBIS/WEBTRANS?
 
-PS: Should work ...
-AF: Didn't realize stream IDs till mentioned, how important is this for getting it working i nt he 
-Y: Created the draft with the assumption that WT is not providing stream IDs. GOAWAY and DATAGRAMS require stream IDs so they are handled separately. 
-AF: Convinced by the use case of origin?, not sure if this is the best solution. Can implement quickly. 
-EK: Private relay has a series of layered protocols, so not sure about this solution. H3 has interesting layering violations regarding QUIC streams, as it fully consumes QUIC connections. Having dependency on stream IDs could be painful. 
-VV: Can? reuse actual QUIC stream IDs, stream IDs may not match if going through proxy, \<missed what Victor said, check audio\>
-BS: DATAGRAMS with WT is inconvenient without stream ID association. Fixing this on intermediaries may be challenging.
-DS: ?
-MT: Reverse HTTP work should happen in its own WG. Suggests this is a bad option. HTTP on QUIC could be done in reverse - new ALPN, reverse it. URI addressing could be limited. Minimum number of layers should be explored. Don't want to run web servers in browsers. 
-KO: Agrees on the use case, suggests setting up H3 and sending the request in reverse? 
-BS: Has thought about it? Likes the flexibility of HTTP authentication here. Not clear about HTTP authentication over QUIC in reverse. MTLS requires exploring certificates to use. 
-LP: Likes the idea of a standard for such use cases. Maybe this needs its own WG. Requires people from proxy, gateway areas which may not be in WEBTRANS WG.
-DS: Not sure about this solution. Highlights the interest in the problem space from the room, building something on top of WebTransport is not in the charter or WEBTRANS WG. Number of different ways to do reverse HTTP. No call for adoption, but there is interest. Suggests to follow the process used for MASQUE. 
+- PS: Should work ...
+- AF: Didn't realize stream IDs till mentioned, how important is this for getting it working i nt he 
+- Y: Created the draft with the assumption that WT is not providing stream IDs. GOAWAY and DATAGRAMS require stream IDs so they are handled separately. 
+- AF: Convinced by the use case of origin?, not sure if this is the best solution. Can implement quickly. 
+- EK: Private relay has a series of layered protocols, so not sure about this solution. H3 has interesting layering violations regarding QUIC streams, as it fully consumes QUIC connections. Having dependency on stream IDs could be painful. 
+- VV: Can? reuse actual QUIC stream IDs, stream IDs may not match if going through proxy, \<missed what Victor said, check audio\>
+- BS: DATAGRAMS with WT is inconvenient without stream ID association. Fixing this on intermediaries may be challenging.
+- DS: ?
+- MT: Reverse HTTP work should happen in its own WG. Suggests this is a bad option. HTTP on QUIC could be done in reverse - new ALPN, reverse it. URI addressing could be limited. Minimum number of layers should be explored. Don't want to run web servers in browsers. 
+- KO: Agrees on the use case, suggests setting up H3 and sending the request in reverse? 
+- BS: Has thought about it? Likes the flexibility of HTTP authentication here. Not clear about HTTP authentication over QUIC in reverse. MTLS requires exploring certificates to use. 
+- LP: Likes the idea of a standard for such use cases. Maybe this needs its own WG. Requires people from proxy, gateway areas which may not be in WEBTRANS WG.
+- DS: Not sure about this solution. Highlights the interest in the problem space from the room, building something on top of WebTransport is not in the charter or WEBTRANS WG. Number of different ways to do reverse HTTP. No call for adoption, but there is interest. Suggests to follow the process used for MASQUE. 
 
 ### **Wrap up and Summary** -- _Chairs & ADs_ (10 minutes)
 
