@@ -1,6 +1,7 @@
 # WebTransport (webtrans) Working Group Agenda - IETF 122
 
 Chairs: David Schinazi, Nidhi Jaju, Lucas Pardue
+
 Note Takers: Martin Thomson, Ankshit Jain
 
 ## Thursday, 20 March 2025
@@ -10,7 +11,7 @@ Note Takers: Martin Thomson, Ankshit Jain
    [Note Well](https://www.ietf.org/about/note-well/), [Code of Conduct](https://www.rfc-editor.org/rfc/rfc7154.html), Note Takers, Agenda Bashing, Draft status
 
 In memoriam: Bernard Aboba
-David recounts a story about RFC 5218.  "All the great protocols came from outside the IETF."
+- David recounts a story about RFC 5218.  "All the great protocols came from outside the IETF."
 
 ### **[W3C WebTransport](https://w3c.github.io/webtransport/) Update** -- _Will Law_ (15 minutes)
 
@@ -109,5 +110,6 @@ Fine interface line between HTTP/3 and QUIC - shares similarities with WebTransp
 ### **Wrap up and Summary** -- _Chairs & ADs_ (10 minutes)
 
 Talked for plan for interop.
+
 Thank you DS!
 
