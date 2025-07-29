@@ -1,6 +1,7 @@
 # WebTransport (webtrans) Working Group Agenda - IETF 123
 
 Chairs: David Schinazi, Nidhi Jaju, Lucas Pardue
+
 Note Takers: Marco Munizaga
 
 ## Wednesday, 23 July 2025
