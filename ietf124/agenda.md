@@ -1,10 +1,10 @@
 # WebTransport (webtrans) Working Group Agenda - IETF 124
 
-CHAIRS: David Schinazi, Nidhi Jaju, Lucas Pardue
+Chairs: Nidhi Jaju, Lucas Pardue
 
 ## Time and Date
 
-* Wednesday November 04, 12:00 - 13:00 CEST ([See this time in your local timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=WEBTRANS+at+IETF+124&iso=20251103T12&p1=165&ah=1))
+* Monday November 03, 12:00 - 13:00 EST ([See this time in your local timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=WEBTRANS+at+IETF+124&iso=20251103T12&p1=165&ah=1))
 * Location: [Centre Ville](https://datatracker.ietf.org/meeting/124/floor-plan?room=centre-ville)
 * [IETF Agenda Link](https://datatracker.ietf.org/meeting/124/agenda/?show=webtrans)
 
