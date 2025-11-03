@@ -26,9 +26,9 @@ Chairs: Nidhi Jaju, Lucas Pardue
 
    https://w3c.github.io/webtransport/
 
-3. **Hackathon Interop Results**, _Alan Frindell_ (10 minutes)
+3. **Hackathon Interop Results**, _Ankshit Jain, Joanna Jo, Hani Damlaj, Max Inden_ (10 minutes)
 
-4. **Working Group Documents**, _Eric Kinnear_ (20 minutes)
+4. **Working Group Documents**, _Eric Kinnear_ (25 minutes)
    
    https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3
    - Open PRs: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-http3/pulls
@@ -42,4 +42,4 @@ Chairs: Nidhi Jaju, Lucas Pardue
    - Open PRs: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-overview/pulls
    - Open Issues: https://github.com/ietf-wg-webtrans/draft-ietf-webtrans-overview/issues
 
-5. **Wrap up and Summary**, _Chairs & ADs_ (10 minutes)
+5. **Wrap up and Summary**, _Chairs & ADs_ (5 minutes)
